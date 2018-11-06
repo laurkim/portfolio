@@ -1,8 +1,9 @@
 import React from 'react';
+import {hexagon} from '../constants'
 
 const Header = () => {
   return (
-    <p id="navbar">Header Rendered</p>
+    <img src={hexagon} alt="hexagon-logo"/>
   )
 };
 
