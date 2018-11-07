@@ -17,10 +17,10 @@
   font-size: 1.25rem;
 }
 
-.links {
+.project-link {
   text-decoration: none;
 }
 
-.links:visited {
+.project-link:visited {
   color: #000000;
 }
