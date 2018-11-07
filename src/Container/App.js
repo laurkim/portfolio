@@ -1,18 +1,23 @@
 import React, { Component } from 'react';
+import { Route, Link } from "react-router-dom";
+import { withRouter } from 'react-router';
 import '../App.css';
 import Header from '../Components/Header';
-import { BrowserRouter as Router } from "react-router-dom";
+import ProjectsContainer from '../Components/ProjectsContainer';
+import About from '../Components/About';
 
 class App extends Component {
   render() {
     return (
       <div id="container">
-        <Router>
           <Header />
-        </Router>
+          <Route exact path="/" component={About} />
+          <Route path="/projects" component={ProjectsContainer} />
+          {/* <Route path="/resume" component={Resume} /> */}
+          <Route path="/about" component={About} />
       </div>
     );
   }
 }
 
-export default App;
+export default withRouter(App);

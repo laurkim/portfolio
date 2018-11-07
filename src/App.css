@@ -3,15 +3,24 @@
   align-content: space-evenly;
 } 
 
+#hexagon-logo {
+ display: block;
+ margin: 1.25rem auto;
+ height: 10rem;
+ width: 10rem;
+}
+
 #nav-bar {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
+  font-size: 1.25rem;
 }
 
-#hexagon-logo {
- display: block;
- margin: 0 auto;
- height: 10rem;
- width: 10rem;
+.links {
+  text-decoration: none;
+}
+
+.links:visited {
+  color: #000000;
 }
