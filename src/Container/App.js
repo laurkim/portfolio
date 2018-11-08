@@ -13,7 +13,6 @@ class App extends Component {
           <Header />
           <Route exact path="/" component={About} />
           <Route path="/projects" component={ProjectsContainer} />
-          {/* <Route path="/resume" component={Resume} /> */}
           <Route path="/about" component={About} />
       </div>
     );

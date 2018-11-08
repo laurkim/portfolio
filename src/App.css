@@ -19,6 +19,7 @@
 
 .project-link {
   text-decoration: none;
+  color: #000000;
 }
 
 .project-link:visited {
@@ -31,4 +32,9 @@
   grid-template-rows: repeat(2, 1fr);
   margin: 3rem;
   justify-items: center;
+}
+
+.clipboard-image {
+  max-width: 100%;
+  height: auto;
 }
