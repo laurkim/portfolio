@@ -9,7 +9,7 @@ import About from '../Components/About';
 class App extends Component {
   render() {
     return (
-      <div id="container">
+      <div>
           <Header />
           <Route exact path="/" component={About} />
           <Route path="/projects" component={ProjectsContainer} />

@@ -9,7 +9,7 @@ const ProjectsContainer = () => {
     })
 
     return (
-        <div id="project-container">
+        <div id="projects-container">
             {projectsArray}
         </div>
     )

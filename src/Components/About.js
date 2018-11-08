@@ -1,8 +1,11 @@
 import React from 'react'; 
+import "../App.css";
 
 const About = () => {
     return (
-        <h1>ABOUT HAS RENDERED</h1>
+        <div id="about-container">
+            <p>hey please hire me</p>
+        </div>
     )
 }
 
